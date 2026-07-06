@@ -1,5 +1,4 @@
 # breed-mt7621-xiaomi-r3g.bin 1.1 R1338   
-# breed-mt7621-xiaomi-r3g.bin 1.2 R1416  
 Xiaomi router 3G dedicated, NAND boot, DDR3 memory applicable, default 256MB DDR AC timing parameters, baud rate 115200, reset button GPIO#18
 * Xiaomi Mi Router 3Gv1
 * Xiaomi Mi Router 4
