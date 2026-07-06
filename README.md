@@ -1,6 +1,6 @@
 breed-mt7621-xiaomi-r3g.bin 1.1 R1338   
 breed-mt7621-xiaomi-r3g.bin 1.2 R1416
-* Xiaomi Mi Router 3Gм1
+* Xiaomi Mi Router 3Gv1
 * Xiaomi Mi Router 4
 -----------------
 breed-qca9558-ar8327n.bin 1.1 R1338 
