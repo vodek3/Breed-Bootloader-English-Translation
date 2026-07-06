@@ -1,4 +1,5 @@
-breed-qca9558-ar8327n.bin
+# breed-qca9558-ar8327n.bin
+QCA9558 + AR8327N Gigabit version, general purpose, baud rate 115200, reset button GPIO#16
 *	TP-Link Archer C5
 *	TP-Link Archer C7 v1/v2
 *	TP-Link TL-WDR4900
