@@ -3,7 +3,7 @@ Xiaomi router 3G dedicated, NAND boot, DDR3 memory applicable, default 256MB DDR
 * Xiaomi Mi Router 3Gv1
 * Xiaomi Mi Router 4
 ----
-# Description of the contents of Sources and LZMA 4.62 folders, see in Breed NAND Reverse En.pdf or Breed NAND Reverse Ru.pdf
+# Description of the contents Sources and LZMA 4.62 folders, see in Breed NAND Reverse En.pdf or Breed NAND Reverse Ru.pdf
 ----
 <p align="center">
 <a href="#"><img src="/breed-mt7621-xiaomi-r3g%201.2%20R1416/Screenshots/01%20breed-mt7621-xiaomi-r3g.png" width="800"</a>
