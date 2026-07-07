@@ -216,6 +216,7 @@ breed-mt7621-xiaomi-r3g.bin
  
 ## 12. Forming uImage Header
 12.1. Look at the size of the final 03Data-MiR3G-En.lzma, note down it.  
+In my example, the size of 03Data-MiR3G-En.lzma is 108521 bytes.  
 12.2. Converting the size of 03Data-MiR3G-En.lzma from decimal to hexadecimal:  
 `printf %X 108521`  
 `1A7E9`  
