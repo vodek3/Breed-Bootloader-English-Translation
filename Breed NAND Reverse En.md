@@ -170,8 +170,8 @@ In my example, the folder is named Breed, IP-address 192.168.1.86, file name of 
 
 10.9. Enter the command in Breed:  
 `wget http://192.168.1.86/Breed/breed-mt7621-xiaomi-r3g-En-Test.bin             `  
-`                                                                               `  
-`PowerShell Terminal output:                                                    `  
+  
+PowerShell Terminal output:  
 `Connecting to 192.168.1.86:80... connected.                                    `  
 `HTTP request sent, awaiting response... 200 OK                                 `  
 `Length: 136741/0x21625 (133KB) [application/octet-stream]                      `  
