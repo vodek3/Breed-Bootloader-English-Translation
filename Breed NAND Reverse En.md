@@ -157,6 +157,7 @@ In my example, the folder is named Breed, IP-address 192.168.1.86, file name of 
 10.6. Open your browser in «Incognito» mode and go to 192.168.1.1 in the Breed Web Interface.  
 10.7. Switch to PowerShell. Connect to the router via Telnet. Enter the following command in PowerShell:  
 `telnet 192.168.1.1`  
+  
 10.8. PowerShell Terminal output:  
 `Boot and Recovery Environment for Embedded Devices                             `  
 `Copyright (C) 2022 HackPascal <hackpascal@gmail.com>                           `  
@@ -185,8 +186,8 @@ PowerShell Terminal output:
 
 10.10. Next, enter the command in Breed:  
 `boot breed 0x80001000                                                          `  
-`                                                                               `  
-`PowerShell Terminal output:                                                    `  
+  
+PowerShell Terminal output:  
 `Validating Breed file at memory 0x80001000 ...                                 `  
 `Booting Breed from memory at 0x80001000 ...                                    `  
 
@@ -205,15 +206,15 @@ If everything is ok, let's move on to the most interesting part!
 breed-mt7621-xiaomi-r3g.bin  
 (MD5: e65d388129a6d1ac39abf99329f1978b)  
 
- 
+
 
 
 **Breed 1.2 r1416 [2022-07-24) (git-46ae2a1) Header**  
 breed-mt7621-xiaomi-r3g.bin  
 (MD5: e65d388129a6d1ac39abf99329f1978b)  
 
- 
- 
+
+
 ## 12. Forming uImage Header
 12.1. Look at the size of the final 03Data-MiR3G-En.lzma, note down it.  
 In my example, the size of 03Data-MiR3G-En.lzma is 108521 bytes.  
@@ -339,27 +340,27 @@ We'll double-check everything!
 
 
 ## 15. Useful links
-15.1. Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!  
-https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/137710  
+15.1. **Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!**  
+https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/13771  
 
-15.2. U-Boot modification for MT7621 Devices  
+15.2. **U-Boot modification for MT7621 Devices**  
 https://github.com/pinney/MT7621-u-boot-mod/tree/master  
 
-15.3. Breed bootloader breed-mt7621-xiaomi-r3g.bin reset button patcher  
+15.3. **Breed bootloader breed-mt7621-xiaomi-r3g.bin reset button patcher**  
 https://github.com/legale/breed-mt7621-xiaomi-r3g.bin-reset-button-changer  
 
-15.4. Binwalk – Полное руководство по инструменту для извлечения образа прошивки  
-(Binwalk – A Complete Guide to the Firmware Image Extractor Tool)  
+15.4. **Binwalk – Полное руководство по инструменту для извлечения образа прошивки  
+(Binwalk – A Complete Guide to the Firmware Image Extractor Tool)**  
 https://forensicanvil.ru/forum/topic/tools/binwalk-instrumentu-izvlecheniya  
 
-15.5. Реверс-инжиниринг домашнего роутера с помощью binwalk  
-(Reverse Engineering a Home Router with Binwalk)  
+15.5. **Реверс-инжиниринг домашнего роутера с помощью binwalk  
+(Reverse Engineering a Home Router with Binwalk)**  
 https://habr.com/ru/articles/487406/  
 
-15.6. История одного маленького реверс-инжиниринга или как мы BREED для Beeline Smartbox FLASH/GIGA расковыряли  
-(The story of one small reverse engineering project, or how we uncovered BREED for Beeline Smartbox FLASH/GIGA)  
+15.6. **История одного маленького реверс-инжиниринга или как мы BREED для Beeline Smartbox FLASH/GIGA расковыряли  
+(The story of one small reverse engineering project, or how we uncovered BREED for Beeline Smartbox FLASH/GIGA)**  
 https://habr.com/ru/articles/649039/  
 
-15.7. Реверс-инжиниринг домашнего роутера с помощью binwalk. Доверяете софту своего роутера?  
-(Reverse engineering a home router using binwalk. Do you trust your router's software?)  
+15.7. **Реверс-инжиниринг домашнего роутера с помощью binwalk. Доверяете софту своего роутера?  
+(Reverse engineering a home router using binwalk. Do you trust your router's software?)**  
 https://habr.com/ru/articles/487406/  
