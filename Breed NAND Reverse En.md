@@ -122,7 +122,7 @@ In 010 Editor:
 View → Character Set → UTF-8  
 View → Highlighting → Control Characters, Zeros  
   
-The first words in Chinese are next to the line «BREED:ABORT», just below.  
+The first words in Chinese are next to the line **«BREED:ABORT»**, just below.  
 In Unicode, each Chinese character in UTF-8 encoding takes up 3 bytes (4 bytes for rare characters; I don't remember that’s I've seen 4-bit characters in Breed).  
 «Chinese Unicode» also includes punctuation marks: spaces, periods, commas, exclamation marks, colons, etc.  
 And each Chinese punctuation mark also takes up 3 (three) bits!  
