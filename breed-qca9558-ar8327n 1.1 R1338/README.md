@@ -7,3 +7,14 @@ QCA9558 + AR8327N Gigabit version, general purpose, baud rate 115200, reset butt
 
 <p align="center">
 <a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/01%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/02-1%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/02-2%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/03%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/04%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/05%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/06%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/07%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/08%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/09%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/10%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-qca9558-ar8327n%201.1%20R1338/Screenshots/11%20breed-qca9558-ar8327n-%5BR1338%5D.png" width="800"</a>
