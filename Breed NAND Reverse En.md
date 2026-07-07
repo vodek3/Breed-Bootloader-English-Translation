@@ -289,6 +289,7 @@ Bytes 61 through 64 are replaced with CRC32 POSIX/cksum (Hex) value of 01uImage-
 
 
 12.18. Save the file as 01uImage-Header-MiR3G-En  
+
 ## 13. Final build of the Breed image
 `cat 01uImage-Header-MiR3G-En 04NoHeader-MiR3G-En > breed-mt7621-xiaomi-r3g-En.bin`  
 or  
@@ -342,7 +343,6 @@ We'll double-check everything!
 ## 15. Useful links
 15.1. **Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!**  
 https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/13771  
-
 15.2. **U-Boot modification for MT7621 Devices**  
 https://github.com/pinney/MT7621-u-boot-mod/tree/master  
 
