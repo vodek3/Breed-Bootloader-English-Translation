@@ -12,6 +12,7 @@ Link to **Breed 1.2 r1416 [2022-07-24) (git-46ae2a1)** for Xiaomi Mi Router 3G
 breed-mt7621-xiaomi-r3g.bin (MD5: e65d388129a6d1ac39abf99329f1978b)  
 https://breed.hackpascal.net/r1416%20%5b2022-07-24%5d/breed-mt7621-xiaomi-r3g.bin  
 https://breed.hackpascal.net/breed-mt7621-xiaomi-r3g.bin  
+
 ## 1. Tools
 A) binwalk Firmware Analysis Tool  
 https://github.com/ReFirmLabs/binwalk  
@@ -81,6 +82,7 @@ Consecutively merge the files 01uImage-Header-MiR3G-En, 02Boot-MiR3G-En, 03Data-
 `cat 01uImage-Header-MiR3G-En 02Boot-MiR3G-En 03Data-MiR3G-En.lzma > breed-mt7621-xiaomi-r3g-En-Test.bin`  
 In Windows, you can use the copy command with the `/b` switch  
 `copy /b 01uImage-Header-MiR3G-En + 02Boot-MiR3G-En + 03Data-MiR3G-En.lzma breed-mt7621-xiaomi-r3g-En-Test.bin`
+
 ## 3. Launch binwalk, analyze the Breed file
 `binwalk breed-mt7621-xiaomi-r3g.bin                                             `  
 `                                                                                `  
@@ -100,10 +102,12 @@ In Windows, you can use the copy command with the `/b` switch
 `28220    0x6E3C      LZMA compressed data, properties: 0x6D,                    `  
 `                      dictionary size: 33554432 bytes,                            `  
 `                      uncompressed size: 373234 bytes                             `  
+
 ## 4. Cutting the Breed file
 `dd if=breed-mt7621-xiaomi-r3g.bin of=01uImage-Header-MiR3G-Cn bs=1 count=64 skip=0`  
 `dd if=breed-mt7621-xiaomi-r3g.bin of=02Boot-MiR3G-Cn bs=1 count=28156 skip=64`  
 `dd if=breed-mt7621-xiaomi-r3g.bin of=03Data-MiR3G-Cn.lzma bs=1 skip=28220`  
+
 ## 5. Check compression settings. Note down the Dictionary size, values of lc, lp and pb
 `lzmainfo.exe 03Data-MiR3G-Cn.lzma                 `  
 `Uncompressed size:             0 MB (373234 bytes)`  
@@ -111,6 +115,7 @@ In Windows, you can use the copy command with the `/b` switch
 `Literal context bits (lc):     1                  `  
 `Literal pos bits (lp):         2                  `  
 `Number of pos bits (pb):       2                  `  
+
 ## 6. Unpacking data in Chinese
 `lzma d 03Data-MiR3G-Cn.lzma 03Data-MiR3G-Cn`
 
@@ -142,6 +147,7 @@ All control characters must remain in their values and places!
 
 ## 8. Repack the data in English. Use lzma 4.62  
 `lzma e 03Data-MiR3G-En 03Data-MiR3G-En.lzma -d25 -lc1 -lp2 -pb2`  
+
 ## 9. Intermediate Breed build for testing without writing to the router's flash memory  
 `cat 01uImage-Header-MiR3G-Cn 02Boot-MiR3G-Cn 03Data-MiR3G-En.lzma > breed-mt7621-xiaomi-r3g-En-Test.bin`  
 or  
