@@ -144,7 +144,10 @@ All control characters must remain in their values and places!
 7.8. Be careful when editing JavaScript functions containing hieroglyphs and strings containing JavaScript variables in addition to hieroglyphs.  
 7.9. If the translation doesn't insert, shorten it and find synonyms. It will still be much clearer than the hieroglyphs!  
 7.10. In 010 Editor, the width of the window where editing is corrected and contains Chinese characters is approximately one and a half times wider than without them. A decrease in width can be considered an indicator that the translation process is complete.  
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/01%20En%20Breed%20Translate%20Edit.png"</a>
+  
 ## 8. Repack the data in English. Use lzma 4.62  
 `lzma e 03Data-MiR3G-En 03Data-MiR3G-En.lzma -d25 -lc1 -lp2 -pb2`  
 
@@ -158,11 +161,18 @@ or
 10.2. Switch off Wi-Fi.  
 10.3. Launch HFS. Admin panel → Shared files. Create a folder in which files will be accessible via HTTP.  
 In my example, the folder is named Breed, IP-address 192.168.1.86, file name of Breed – breed-mt7621-xiaomi-r3g-En-Test.bin  
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/02%20En%20HFS%20Breed.png"</a>
+  
 10.4. Turn off the router and turn it on, holding the Reset button, wait 7-10 seconds after the LEDs start blinking, release Reset.  
 10.5. Connecting the computer to the router with a patch cord.  
 10.6. Open your browser in «Incognito» mode and go to 192.168.1.1 in the Breed Web Interface.  
 10.7. Switch to PowerShell. Connect to the router via Telnet. Enter the following command in PowerShell:  
 `telnet 192.168.1.1`  
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/03%20En%20PS%20Telnet.png"</a>
   
 10.8. PowerShell Terminal output:  
 `Boot and Recovery Environment for Embedded Devices                             `  
@@ -173,8 +183,10 @@ In my example, the folder is named Breed, IP-address 192.168.1.86, file name of 
 `Starting breed built-in shell                                                  `  
 `                                                                               `  
 `breed>                                                                         `  
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/04%20En%20PS%20Breed.png"</a>
+  
 10.9. Enter the command in Breed:  
 `wget http://192.168.1.86/Breed/breed-mt7621-xiaomi-r3g-En-Test.bin             `  
   
@@ -187,18 +199,20 @@ PowerShell Terminal output:
 `[========================================================================] 100%`  
 `                                                                               `  
 `Transmission completed in 0.2s.                                                `  
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/05%20En%20PS%20wget.png"</a>
+  
 10.10. Next, enter the command in Breed:  
 `boot breed 0x80001000                                                          `  
   
 PowerShell Terminal output:  
 `Validating Breed file at memory 0x80001000 ...                                 `  
 `Booting Breed from memory at 0x80001000 ...                                    `  
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/06%20En%20PS%20Boot.png"</a>
+  
 10.11. Switch to your browser and refresh the page (press F5).  
 The translated Breed should appear.  
 10.12. Review the results of your work, checking all menus, tables, checkboxes, etc. for functionality, the presence/absence of errors, translation accuracy, etc.  
@@ -211,16 +225,17 @@ If everything is ok, let's move on to the most interesting part!
 **uImage Header. Breed 1.2 r1416 [2022-07-24) (git-46ae2a1)**  
 breed-mt7621-xiaomi-r3g.bin  
 (MD5: e65d388129a6d1ac39abf99329f1978b)  
-
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/07%20En%20Breed%20uImage%20Header%20Cn.png"</a>"</a>
+  
 **Breed 1.2 r1416 [2022-07-24) (git-46ae2a1) Header**  
 breed-mt7621-xiaomi-r3g.bin  
 (MD5: e65d388129a6d1ac39abf99329f1978b)  
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/07%20En%20Breed%20uImage%20Header%20Cn.png"</a>"</a>
+  
 ## 12. Forming uImage Header
 12.1. Look at the size of the final 03Data-MiR3G-En.lzma, note down it.  
 In my example, the size of 03Data-MiR3G-En.lzma is 108521 bytes.  
@@ -236,8 +251,9 @@ Find the Breed header by its hexadecimal value (the «Magic number» of the Bree
 `0000006DE0:`**`00 01 A7 E9`**`00 00 00 00 FF FF FF FF 37 54 01 78 `  
 `0000006DF0:  00 01 A7 E9 A0 10 00 00 A0 10 00 00             `
 
-
-
+<p align="left">
+<a href="#"><img src="/Pictures%20En/09%20En%20Breed%20LZMA%20Size%20Patch.png"</a>
+  
 12.5. Save the file as 02Boot-MiR3G-En.  
 12.6. Build Breed without uImage Header:  
 `cat 02Boot-MiR3G-En 03Data-MiR3G-En.lzma > 04NoHeader-MiR3G-En`  
@@ -257,8 +273,9 @@ In my example, the size of 04NoHeader-MiR3G-En is 136677 bytes.
 `0000000020: 42 72 65 65 64 20 4D 54 37 36 32 31 00 00 00 00`  
 `0000000030: 00 00 00 40 00 00 40 00 00 00 00 00 01 99 A3 92`  
 
-
-
+<p align="left">
+<a href="#"><img src="/Pictures%20En/10%20Eu%20Breed%20uImage%20Header%20Cn.png"</a>
+  
 Bytes 05 through 08 are replaced with Nulls:  
 `2C D9 C1 6A → 00 00 00 00`  
 Bytes 13 through 16 are replaced with size (Hex) of 04NoHeader-MiR3G-En:  
@@ -267,9 +284,10 @@ Bytes 25 through 28 are replaced with CRC32 value of 04NoHeader-MiR3G-En:
 `DF 0A 27 9A → 1B 83 F9 9B`  
 Bytes 61 through 64 are replaced with Nulls:  
 `01 99 A3 92 → 00 00 00 00`  
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/11%20En%20Breed%20uImage%20Header%20En%20Mod1.png"</a>
+  
 12.10.1. Optional. I kept the original Timestamp Breed in Chinese.
 Bytes 09 through 12 contain the assembly date – Unix Timestamp, if necessary, you can add a Timestamp to the header at this stage.  
 For the Unix Timestamp calculation algorithm, see Section **2. Examples of command usage.** Command `date`  
@@ -284,16 +302,20 @@ Next, we convert the decimal number «Unix Epoch» to hexadecimal and enter it i
 12.14. Open 01uImage-Header-MiR3G-En-Mod1 in a hex editor  
 Bytes 61 through 64 are replaced with CRC32 POSIX/cksum (Hex) value of 01uImage-Header-MiR3G-En-Mod1:  
 `00 00 00 00 → 96 9E F9 56`  
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/12%20En%20Breed%20uImage%20Header%20En%20Mod2.png"</a>
+  
 12.15. Save the file as 01uImage-Header-MiR3G-En-Mod2  
 12.16. Calculate the checksum 01uImage-Header-MiR3G-En-Mod2 using algorithm CRC32:  
 `crc32 01uImage-Header-MiR3G-En-Mod2`  
 `7ddb7cad`  
 12.17. Bytes 05 through 08 are replaced with CRC32 value of 01uImage-Header-MiR3G-En-Mod2:  
 `00 00 00 00 → 7D DB 7C AD`  
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20En/13%20En%20Breed%20uImage%20Header%20En.png"</a>
+  
 12.18. Save the file as 01uImage-Header-MiR3G-En  
 
 ## 13. Final build of the Breed image
@@ -344,8 +366,9 @@ We'll double-check everything!
   
 14.3. For added emphasis, we'll partially re-run **Section 10. Testing**, checking the results, and if no errors or typos are found and Breed displays a message when attempting to flash the Bootloader without red hieroglyphs and a plate containing the Latin letters MD5 at the bottom left, then you're ready to flash!  
 
-
-
+<p align="left">
+<a href="#"><img src="/Pictures%20En/14%20En%20Update.png"</a>
+  
 ## 15. Useful links
 15.1. **Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!**  
 https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/13771  
