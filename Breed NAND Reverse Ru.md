@@ -147,7 +147,10 @@ View → Highlighting → Control Characters, Zeros
 7.8. Будьте внимательны редактируя функции JavaScript содержащие иероглифы и строки содержащие кроме иероглифов переменные JavaScript.  
 7.9. Если перевод не помещается – сокращайте, подбирайте синонимы. Всё одно – будет куда понятнее чем иероглифы!  
 7.10. В 010 Editor ширина части окна, где производим редактирование содержащая китайские иероглифы примерно в полтора раза шире, чем при их отсутствии. Уменьшение ширина можно считать индикатором конечности процесса перевода.  
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/01%20Ru%20Breed%20Translate%20Edit.png"</a>
+  
 ## 8. Запаковка данных на английском языке. Используем lzma 4.62  
 `lzma e 03Data-MiR3G-En 03Data-MiR3G-En.lzma -d25 -lc1 -lp2 -pb2`  
 
@@ -161,11 +164,18 @@ View → Highlighting → Control Characters, Zeros
 10.2. Отключаем Wi-Fi.  
 10.3. Запускаем HFS. Admin-panel → Shared files создаем папку, в которой будут доступны файлы по HTTP.  
 В моем примере папка Breed, IP-адрес 192.168.1.86, имя файла Breed – breed mt7621-xiaomi-r3g-En-Test.bin  
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/02%20Ru%20HFS%20Breed.png"</a>
+  
 10.4. Выключаем роутер и включаем, удерживая кнопку Reset, ждем 7-10 секунд после того, как светодиоды начнут моргать, отпускаем Reset.  
 10.5. Соединяем патч-кордом компьютер с роутером.  
 10.6. Открываем браузер в режиме «Инкогнито» и переходим по адресу 192.168.1.1 в Веб интерфейс Breed.  
 10.7. Переключаемся в PowerShell. Подключаемся по telnet к роутеру. Вводим в PowerShell команду:  
 `telnet 192.168.1.1`  
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/03%20Ru%20PS%20Telnet.png"</a>
   
 10.8. Вывод терминала PowerShell:  
 `Boot and Recovery Environment for Embedded Devices                             `  
@@ -176,8 +186,10 @@ View → Highlighting → Control Characters, Zeros
 `Starting breed built-in shell                                                  `  
 `                                                                               `  
 `breed>                                                                         `  
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/04%20Ru%20PS%20Breed.png"</a>
+  
 10.9. Вводим в Breed команду:  
 `wget http://192.168.1.86/Breed/breed-mt7621-xiaomi-r3g-En-Test.bin             `  
   
@@ -190,18 +202,20 @@ View → Highlighting → Control Characters, Zeros
 `[========================================================================] 100%`  
 `                                                                               `  
 `Transmission completed in 0.2s.                                                `  
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/05%20Ru%20PS%20wget.png"</a>
+  
 10.10. Далее вводим в Breed команду:  
 `boot breed 0x80001000                                                          `  
   
 Вывод терминала PowerShell:  
 `Validating Breed file at memory 0x80001000 ...                                 `  
 `Booting Breed from memory at 0x80001000 ...                                    `  
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/06%20Ru%20PS%20Boot.png"</a>
+  
 10.11. Переключаемся в браузер, обновляем страницу (кнопка F5).  
 Должен появится переведенный Breed.  
 10.12. Смотрим на результаты труда, проверяем все меню, таблицы, чекбоксы и пр. на предмет работоспособности, наличия/отсутствия ошибок, корректности перевода и т. д.  
@@ -215,15 +229,16 @@ View → Highlighting → Control Characters, Zeros
 breed-mt7621-xiaomi-r3g.bin  
 (MD5: e65d388129a6d1ac39abf99329f1978b)  
 
-
-
-
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/07%20Ru%20Breed%20uImage%20Header%20Cn.png"</a>
+  
 **Breed 1.2 r1416 [2022-07-24) (git-46ae2a1) Header**  
 breed-mt7621-xiaomi-r3g.bin  
 (MD5: e65d388129a6d1ac39abf99329f1978b)  
 
-
-
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/08%20Ru%20Breed%20Header%20Cn.png"</a>
+  
 ## 12. Формирование uImage Header
 12.1. Смотрим размер финального 03Data-MiR3G-En.lzma, записываем/запоминаем.  
 В моем примере размер 03Data-MiR3G-En.lzma 108521 байт.  
@@ -238,9 +253,10 @@ breed-mt7621-xiaomi-r3g.bin
 `              ↓  ↓  ↓  ↓                                       `  
 `0000006DE0:`**`00 01 A7 E9`**`00 00 00 00 FF FF FF FF 37 54 01 78 `  
 `0000006DF0:  00 01 A7 E9 A0 10 00 00 A0 10 00 00             `
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/09%20Ru%20Breed%20LZMA%20Size%20Patch.png"</a>
+  
 12.5. Сохраняем файл с именем 02Boot-MiR3G-En.  
 12.6. Собираем Breed без заголовка uImage:  
 `cat 02Boot-MiR3G-En 03Data-MiR3G-En.lzma > 04NoHeader-MiR3G-En`  
@@ -259,9 +275,10 @@ breed-mt7621-xiaomi-r3g.bin
 `0000000010: A0 20 10 00 A0 20 10 00 DF 0A 27 9A 05 05 01 00`  
 `0000000020: 42 72 65 65 64 20 4D 54 37 36 32 31 00 00 00 00`  
 `0000000030: 00 00 00 40 00 00 40 00 00 00 00 00 01 99 A3 92`  
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/10%20Ru%20Breed%20uImage%20Header%20Cn.png"</a>
+  
 Байты с 05 по 08 заменяем нулями:  
 `2C D9 C1 6A → 00 00 00 00`  
 Байты с 13 по 16 заменяем на размер (Hex) 04NoHeader-MiR3G-En:  
@@ -271,8 +288,9 @@ breed-mt7621-xiaomi-r3g.bin
 Байты с 61 по 64 заменяем нулями:  
 `01 99 A3 92 → 00 00 00 00`  
 
-
-
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/11%20Ru%20Breed%20uImage%20Header%20En%20Mod1.png"</a>
+  
 12.10.1. Опционно. Я сохранил исходный Timestamp Breed на китайском языке.  
 Байты с 09 по 12 содержат дату сборки – Unix Timestamp, если есть необходимость, то на данном этапе можно в заголовок внести Timestamp.  
 Алгоритм подсчета Unix Timestamp см. раздел **2. Примеры использования команд. Команда `date`.**
@@ -287,16 +305,20 @@ breed-mt7621-xiaomi-r3g.bin
 12.14. Открываем в шестнадцатеричном редакторе файл 01uImage-Header-MiR3G-En-Mod1  
 Байты с 61 по 64 заменяем на CRC32 POSIX/cksum (Hex) value of 01uImage-Header-MiR3G-En-Mod1:  
 `00 00 00 00 → 96 9E F9 56`  
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/12%20Ru%20Breed%20uImage%20Header%20En%20Mod2.png"</a>
+  
 12.15. Сохраняем файл с именем 01uImage-Header-MiR3G-En-Mod2  
 12.16. Считаем контрольную сумму 01uImage-Header-MiR3G-En-Mod2 по алгоритму CRC32:  
 `crc32 01uImage-Header-MiR3G-En-Mod2`  
 `7ddb7cad`  
 12.17. Байты с 05 по 08 заменяем на CRC32 01uImage-Header-MiR3G-En-Mod2:  
 `00 00 00 00 → 7D DB 7C AD`  
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/13%20Ru%20Breed%20uImage%20Header%20En.png"</a>
+  
 12.18. Сохраняем файл с именем 01uImage-Header-MiR3G-En  
 
 ## 13. Финальная сборка образа Breed
@@ -347,9 +369,10 @@ breed-mt7621-xiaomi-r3g.bin
   
   
 14.3. Для пущей важности еще раз производим отчасти раздел **10. Тестирование, проверка результата** и если ошибок/опечаток не найдено и Breed выводит сообщение при попытке прошить Bootloader без иероглифов красного цвета с табличкой, содержащей слева cнизу латинские буквы MD5, то можно прошиваться!
-
-
-
+  
+<p align="left">
+<a href="#"><img src="/Pictures%20Ru/14%20Ru%20Update.png"</a>
+  
 ## 15. Список книг на лето
 15.1. **Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!**  
 https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/137710  
