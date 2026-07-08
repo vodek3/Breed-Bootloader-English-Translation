@@ -1,4 +1,4 @@
-# Disassembly/translation/assembly procedure Breed for Xiaomi Mi Router 3G with NAND flash memory.
+# Disassembly/translation/assembly procedure Breed for Xiaomi Mi Router 3G with NAND flash memory
 
 A couple of years ago I read a post **dabyd64** on the OpenWrt forum post *Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!*, it described the procedure for disassembling/translating/assembling Breed for SPI flash memory and just one patch.
 
