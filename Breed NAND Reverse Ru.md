@@ -1,4 +1,4 @@
-# Порядок разборки/перевода/сборки для Breed для Xiaomi Mi Router 3G c NAND флеш-памятью.
+# Порядок разборки/перевода/сборки для Breed для Xiaomi Mi Router 3G c NAND флеш-памятью
 
 Исходно я наткнулся на пост на форуме OpenWrt на сообщение **dabyd64** *Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!*, в нем описан порядок разборки/перевода/сборки Breed для SPI флеш-памяти и всего один патч.  
 
