@@ -238,7 +238,7 @@ breed-mt7621-xiaomi-r3g.bin
 (MD5: e65d388129a6d1ac39abf99329f1978b)  
   
 <p align="left">
-<a href="#"><img src="/Pictures%20En/07%20En%20Breed%20uImage%20Header%20Cn.png"</a>"</a>
+<a href="#"><img src="/Pictures%20En/08%20En%20Breed%20Header%20Cn.png"</a>"</a>
   
 ## 12. Forming uImage Header
 12.1. Look at the size of the final 03Data-MiR3G-En.lzma, note down it.  
