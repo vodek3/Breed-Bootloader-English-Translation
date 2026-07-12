@@ -17,3 +17,10 @@ Dedicated for Ji Router Jiyi S (HC5661A), baud rate 115200, reset button GPIO#38
 *	Xiaomi Mi Router 4A
 *	Xiaomi Mi Router 4C
 *	etc.
+-----------------
+# Updating from installed Breed in Chinese
+# Обновление из установленного Breed на китайском языке
+<p align="center">
+<a href="#"><img src="/Pictures%20En/00%20Breed%20Update%20Cn%2001.png" width="800"</a>
+<a href="#"><img src="/Pictures%20En/00%20Breed%20Update%20Cn%2002.png" width="800"</a>
+<a href="#"><img src="/Pictures%20En/00%20Breed%20Update%20Cn%2003.png" width="800"</a>
