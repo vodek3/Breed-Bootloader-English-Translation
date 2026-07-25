@@ -375,7 +375,7 @@ We'll double-check everything!
   
 ## 15. Useful links
 15.1. **Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!**  
-https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/13771  
+https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/137710  
 15.2. **U-Boot modification for MT7621 Devices**  
 https://github.com/pinney/MT7621-u-boot-mod/tree/master  
 
