@@ -17,7 +17,7 @@ https://breed.hackpascal.net/breed-mt7621-xiaomi-r3g.bin
 A) binwalk Firmware Analysis Tool  
 https://github.com/ReFirmLabs/binwalk  
 B) u-boot-tools. Точнее dumpimage из пакета u-boot-tools  
-C) XZ Utils. More precisely lzmainfo from XZ Utils  
+C) XZ Utils. Точнее lzmainfo из пакета XZ Utils  
 https://github.com/tukaani-project/xz  
 D) lzma из пакета LZMA SDK. Опытным путем выяснено, что lzma-data в Breed упакованы lzma версией 4.62  
 https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/4.62/  
