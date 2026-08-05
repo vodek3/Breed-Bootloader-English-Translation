@@ -1,6 +1,6 @@
 # Порядок разборки/перевода/сборки для Breed для Xiaomi Mi Router 3G c NAND флеш-памятью
 
-Исходно я наткнулся на пост на форуме OpenWrt на сообщение **dabyd64** *Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!*, в нем описан порядок разборки/перевода/сборки Breed для SPI флеш-памяти и всего один патч.  
+Исходно я наткнулся на пост на форуме OpenWrt на сообщение **dabyd64** [*Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!*](https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/137710), в нем описан порядок разборки/перевода/сборки Breed для SPI флеш-памяти и всего один патч.  
 
 Для более «наукоёмких» загрузчиков процесс несколько сложнее, забегая вперед – подсчёт трёх контрольных сумм двумя разными алгоритмами и пр.  
 Так же отмечу, что CRC указная как POSIX в статье **johovich** на Хабре если использовать, например, подсчёт контрольной суммы с помощью `pycrc` с ключом `--model=posix` (https://pycrc.org/) или CRC Calculator от soltau (https://sourceforge.net/projects/crc-calculator/) подсчитывается то, наверняка, правильно, но этот, видимо не тот «CRC POSIX», что использован в Breed!  
