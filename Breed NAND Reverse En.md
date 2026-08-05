@@ -1,10 +1,9 @@
 $${\color{red}Color \space your \space \color{green}.md \space file \space \color{blue}in \space Github}$$
-$${\color{green}**111** \space}$$
-
+$${\color{green}**111** \space}$$  
 
 # Disassembly/translation/assembly procedure Breed for Xiaomi Mi Router 3G with NAND flash memory
 
-A couple of years ago I read a post **dabyd64** on the OpenWrt forum post *Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!*, it described the procedure for disassembling/translating/assembling Breed for SPI flash memory and just one patch.
+A couple of years ago I read a post **dabyd64** on the OpenWrt forum post [*Success on hacking, extracting, modifying (Translating) and repacking BREED Bootloader!*](https://forum.openwrt.org/t/success-on-hacking-extracting-modifying-translating-and-repacking-breed-bootloader/137710), it described the procedure for disassembling/translating/assembling Breed for SPI flash memory and just one patch.
 
 For more sophisticated bootloaders, the process is somewhat more complex – getting ahead – calculating three checksums using two different algorithms, etc.
 I'll also note that the CRC specified as POSIX in article by **johovich** on Habr. If you use, for example, `pycrc` with the `--model=posix` switch (https://pycrc.org/) or soltau's CRC Calculator (https://sourceforge.net/projects/crc-calculator/), the checksum will likely be calculated correctly, but this is apparently not the same «POSIX CRC» used in Breed!
