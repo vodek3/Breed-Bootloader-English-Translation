@@ -1,3 +1,20 @@
+
+
+<p align="center">
+<a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Stock%20En.png" width="800"</a>  
+
+<p align="center">
+<a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Keenetic%20En.png" width="800"</a>  
+
+-------------------
+
+<p align="center">
+<a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Stock%20Ru.png" width="800"</a>  
+
+<p align="center">
+<a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Keenetic%20Ru.png" width="800"</a>  
+
+
 The principle of the MAC addresses in Breed is the following:
 https://forum.openwrt.org/t/support-for-xiaomi-mi-3c/84973/402
 
