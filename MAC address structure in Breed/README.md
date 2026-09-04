@@ -15,6 +15,42 @@
 <a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Keenetic%20Ru.png" width="800"</a>  
 
 
+**Standard MAC address structure**
+```
+RF1
+WLAN MAC : EC-41-11-22-3C-6D The last value is the number in hexadecimal format following the number in the MAC address from the sticker
+MAC1     : FD-9B-FF-FF-FF-FF
+MAC2     : FF-FF-FF-FF-FF-FF
+
+RF2
+WLAN MAC : EC-41-11-22-3C-6E The last value is the number in hexadecimal format following the number in RF1 WLAN MAC
+MAC1     : FD-9B-FF-FF-FF-FF
+MAC2     : FF-FF-FF-FF-FF-FF
+
+Independent parameters of RT6855/RT6856/MT7621
+LAN MAC  : EC-41-11-22-3C-6B The last value is the number in hexadecimal format preceding the number in the MAC address on the sticker
+WAN MAC  : EC-41-11-22-3C-6C MAC address from the sticker
+```
+
+
+**Стандартная структура MAC-адресов**
+```
+RF1
+WLAN MAC : EC-41-11-22-3C-6D Последнее значение - число в шестнадцатеричном формате следующее после числа в MAC-адресе с наклейки
+MAC1     : FD-9B-FF-FF-FF-FF
+MAC2     : FF-FF-FF-FF-FF-FF
+
+RF2
+WLAN MAC : EC-41-11-22-3C-6E Последнее значение - число в шестнадцатеричном формате следующее после числа в RF1 WLAN MAC
+MAC1     : FD-9B-FF-FF-FF-FF
+MAC2     : FF-FF-FF-FF-FF-FF
+
+Independent parameters of RT6855/RT6856/MT7621
+LAN MAC  : EC-41-11-22-3C-6B Последнее значение - число в шестнадцатеричном формате предшествующее числу в MAC-адресе с наклейки
+WAN MAC  : EC-41-11-22-3C-6C MAC-адрес с наклейки
+```
+
+
 The principle of the MAC addresses in Breed is the following:
 https://forum.openwrt.org/t/support-for-xiaomi-mi-3c/84973/402
 
