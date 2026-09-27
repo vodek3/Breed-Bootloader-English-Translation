@@ -1,6 +1,7 @@
 [Support for Xiaomi Mi 3C | The principle of the MAC addresses in Breed](https://forum.openwrt.org/t/support-for-xiaomi-mi-3c/84973/402)
   
-  
+# MAC address structure of Xiaomi Mi Router 3G v1.
+# Структура MAC адресов в Xiaomi Mi Router 3G v1.
 <p align="center">
 <a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Stock%20En.png" width="800"</a>  
 
