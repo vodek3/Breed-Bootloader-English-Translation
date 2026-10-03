@@ -1,5 +1,6 @@
-$${\color{red}Color \space your \space \color{green}.md \space file \space \color{blue}in \space Github}$$
-$${\color{green}**111** \space}$$  
+<!-- This content will not appear in the rendered Markdown -->
+<!-- $${\color{red}Color \space your \space \color{green}.md \space file \space \color{blue}in \space Github}$$
+$${\color{green}**111** \space}$$   -->
 
 # Disassembly/translation/assembly procedure Breed for Xiaomi Mi Router 3G with NAND flash memory
 
