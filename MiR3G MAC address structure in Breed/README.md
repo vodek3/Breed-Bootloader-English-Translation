@@ -3,18 +3,18 @@
 # MAC address structure of Xiaomi Mi Router 3G v1.
 # Структура MAC адресов в Xiaomi Mi Router 3G v1.
 <p align="center">
-<a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Stock%20En.png" width="800"</a>  
+<a href="#"><img src="/MiR3G%20MAC%20address%20structure%20in%20Breed/Breed%20R3G%20MAC%20Stock%20En.png" width="800"</a>  
 
 <p align="center">
-<a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Keenetic%20En.png" width="800"</a>  
+<a href="#"><img src="/MiR3G%20MAC%20address%20structure%20in%20Breed/Breed%20R3G%20MAC%20Keenetic%20En.png" width="800"</a>  
 
 -------------------
 
 <p align="center">
-<a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Stock%20Ru.png" width="800"</a>  
+<a href="#"><img src="/MiR3G%20MAC%20address%20structure%20in%20Breed/Breed%20R3G%20MAC%20Stock%20Ru.png" width="800"</a>  
 
 <p align="center">
-<a href="#"><img src="/MAC address structure in Breed/Breed%20R3G%20MAC%20Keenetic%20Ru.png" width="800"</a>  
+<a href="#"><img src="/MiR3G%20MAC%20address%20structure%20in%20Breed/Breed%20R3G%20MAC%20Keenetic%20Ru.png" width="800"</a>  
 
 
 **Standard MAC address structure**
