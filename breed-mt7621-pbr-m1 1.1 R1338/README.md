@@ -15,7 +15,7 @@ PandoraBox PBR-M1 dedicated, DDR3 memory suitable, default 512MB DDR AC timing p
 *	etc.
 
 <p align="center">
-<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/01%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/01%20breed-mt7621-pbr-m1-%5BR1338%5D.jpg" width="800"</a>
 
 ## 1. Binwalk   
 `binwalk breed-mt7621-xiaomi-r3g.bin                                                                `  
