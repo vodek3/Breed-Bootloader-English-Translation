@@ -28,7 +28,7 @@ Dedicated for Ji Router Jiyi S (HC5661A), baud rate 115200, reset button GPIO#38
 * JDCloud Router JDCloud-1 (JD_RE_SP_01B)
 * etc.
 -----------------
-# breed-mt7621-pbr-m1.bin
+# breed-mt7621-pbr-m1.bin 1.1 R1338
 PandoraBox PBR-M1 dedicated, DDR3 memory suitable, default 512MB DDR AC timing parameters, baud rate 115200, reset button GPIO#18
 * Xiaodu Router (Ai-BR100)
 * Phicomm FIR300M/302M
