@@ -44,6 +44,18 @@ PandoraBox PBR-M1 dedicated, DDR3 memory suitable, default 512MB DDR AC timing p
 * JDCloud-1 (JD_RE_SP_01B) Router
 *	etc.
 -----------------
+# breed-ar724x-reset11.bin  
+AR724X Universal, 100M wired, baud rate 115200, reset button GPIO#11  
+
+-----------------
+# breed-ar9331.bin  
+AR9331 Universal, baud rate 115200, reset button GPIO#11  
+
+-----------------
+# breed-ar9331-wr710n_wr720n.bin  
+TP-Link WR710N/WR720N v3 dedicated, baud rate 115200, reset button GPIO#11  
+
+-----------------
 # Updating from installed Breed in Chinese
 # Обновление из установленного Breed на китайском языке
 <p align="center">
