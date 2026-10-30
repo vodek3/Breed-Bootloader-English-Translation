@@ -15,7 +15,16 @@ PandoraBox PBR-M1 dedicated, DDR3 memory suitable, default 512MB DDR AC timing p
 *	etc.
 
 <p align="center">
-<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/01%20breed-mt7621-pbr-m1-%5BR1338%5D.jpg" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/01%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/02%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/03%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/04%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/05%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/06%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/07%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/08%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/09%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
+<a href="#"><img src="/breed-mt7621-pbr-m1 1.1 R1338/Screenshots/10%20breed-mt7621-pbr-m1-%5BR1338%5D.png" width="800"</a>
 
 ## 1. Binwalk   
 `binwalk breed-mt7621-pbr-m1-R1338.bin                                                              `  
